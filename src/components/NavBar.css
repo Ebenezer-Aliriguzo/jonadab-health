@@ -1,0 +1,17 @@
+/* NavBar.css: uses NeoLife-like greens / accent */
+.nav-root {
+  background: linear-gradient(90deg, #0b7a5f 0%, #1aa37a 100%); /* NeoLife-ish */
+}
+.nav-toolbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0 1rem;
+}
+.nav-title {
+  font-weight:700;
+}
+.nav-links .nav-btn {
+  color: white;
+  text-transform: none;
+}

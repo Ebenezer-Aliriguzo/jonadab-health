@@ -1,0 +1,2 @@
+/* JonadabHealthProductsSpinner.css */
+.spinner-wrap { display:flex; flex-direction:column; align-items:center; justify-content:center; padding:2rem; color:#0b7a5f; gap:12px; }

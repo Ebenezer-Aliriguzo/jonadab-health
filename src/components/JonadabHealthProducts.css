@@ -1,0 +1,12 @@
+/* JonadabHealthProducts.css */
+.page-root { font-family: 'Inter', sans-serif; color:#222; }
+.hero { margin-bottom: 1rem; }
+.products-section { padding: 2rem; max-width:1200px; margin: 0 auto; }
+.products-grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:1rem; margin-top:1rem; }
+.product-card { background:#fff; border-radius:8px; box-shadow: 0 6px 14px rgba(10,10,10,0.06); overflow:hidden; display:flex; flex-direction:column; }
+.product-img { width:100%; height:220px; object-fit:contain; background:#f9f9f9; padding:10px; }
+.product-body { padding:12px; display:flex; flex-direction:column; gap:8px; flex:1; }
+.product-price { font-weight:700; color:#0b7a5f; }
+.product-actions { margin-top:auto; display:flex; gap:8px; }
+.buy-btn { background:#0b7a5f; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+.share-btn { background:transparent; color:#0b7a5f; border:1px solid #0b7a5f; padding:8px 12px; border-radius:6px; cursor:pointer; }

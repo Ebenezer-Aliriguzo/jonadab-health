@@ -1,0 +1,28 @@
+/* Carosol.css */
+.caro-wrap {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  background: #f7f7f7;
+}
+.caro-item {
+  position: absolute;
+  top:0; left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transform: scale(1.02);
+  transition: opacity .6s ease, transform .6s ease;
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column;
+}
+.caro-item.active {
+  opacity:1;
+  transform: scale(1);
+}
+.caro-img { max-height: 260px; object-fit: contain; margin-bottom: 8px; }
+.caro-caption { text-align:center; color:#083; }
+.caro-dots { position:absolute; bottom:10px; left:50%; transform:translateX(-50%); display:flex; gap:8px; }
+.dot { width:10px; height:10px; border-radius:50%; background:#ccc; border:none; cursor:pointer; }
+.dot-active { background:#0b7a5f; }
