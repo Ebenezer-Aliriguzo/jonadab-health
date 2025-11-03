@@ -72,7 +72,7 @@ function openWhatsApp(product) {
 }
 
 function shareProduct(product) {
-  const shareText = `${product.name} — GHS ${product.priceGHS}. Check it out at Jonadab NeoLife.`;
+  const shareText = `${product.name} — GHS ${product.priceGHS}. Check it out at Jonadab NeoLife https://jonadab-health.vercel.app/ .`;
   if (navigator.share) {
     navigator.share({ text: shareText }).catch(() => {});
   } else {
